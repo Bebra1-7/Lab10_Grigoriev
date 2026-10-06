@@ -15,10 +15,7 @@
 //     Console.WriteLine(letter);
 // }
 
-using System.Numerics;
-using System.Security.Principal;
-
-int[] numbers = { 10, 20, 30 };
+// int[] numbers = { 10, 20, 30 };
 
 // foreach (int n in numbers)
 // {
