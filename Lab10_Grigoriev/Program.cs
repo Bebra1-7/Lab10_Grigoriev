@@ -15,6 +15,8 @@
 //     Console.WriteLine(letter);
 // }
 
+using System.Security.Principal;
+
 int[] numbers = { 10, 20, 30 };
 
 // foreach (int n in numbers)
@@ -43,4 +45,23 @@ int[] numbers = { 10, 20, 30 };
 //     total += grade;
 // }
 // Console.WriteLine(total / grades.Length);
+
+// string[] students = { "Аня", "Ярослав", "Вика" };
+// int num = 0;
+// foreach (string student in students)
+// {
+//     num++;
+//     Console.WriteLine($"{num}. {student}");
+
+// }
+// Console.WriteLine(num);
+
+// int[] points = { 10, 20, 15 };
+// int total = 0;
+// foreach (int point in points)
+// {
+//     points[total] += 5;
+//     Console.WriteLine(points[total]);
+//     total++;
+// }
 
